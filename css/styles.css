@@ -524,33 +524,31 @@ body {
     justify-content: center;
 }
 
-.icon-footer {
-    background-color: rgba(255, 255, 255, 0.1);;
+.footer-block {
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    background-repeat: no-repeat;
-    background-position: center;
     display: inline-flex;
     justify-content: center;
     cursor: pointer;
+    align-items: center;
+    margin-right: 10px;
 }
 
-.icon-footer:nth-child(1) {
-    background-image: url('../images/footer/instagram2.svg');
+.footer-block:last-child {
+    margin-right: 0;
 }
 
-.icon-footer:nth-child(2) {
-    background-image: url('../images/footer/twitter2.svg');
+.footer-block:hover,
+.footer-block:focus {
+    background-color: var(--brand-color);
 }
 
-.icon-footer:nth-child(3) {
-    background-image: url('../images/footer/facebook2.svg');
+.icon-footer {
+    fill: #ffffff;
 }
 
-.icon-footer:nth-child(4) {
-    background-image: url('../images/footer/linkedin2.svg');
-}
 
 .icon-footer:focus,
 .icon-footer:hover {
