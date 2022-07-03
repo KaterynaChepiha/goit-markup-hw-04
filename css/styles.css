@@ -1,4 +1,5 @@
-reset html {
+/* Reset */
+html {
     box-sizing: border-box;
 }
 
@@ -392,18 +393,22 @@ body {
     justify-content: center;
 }
 
+.social-list>li {
+    margin-right: 10px;
+}
+
 .social-links {
     display: flex;
     background-color: #ffffff;
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    margin-right: 10px;
     cursor: pointer;
     align-items: center;
     justify-content: center;
     color: #AFB1B8;
 }
+
 
 .team-link {
     color: currentColor;
@@ -423,33 +428,32 @@ body {
 .customers-all {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .customers-block {
-    box-sizing: border-box;
+    margin-right: 30px;
+    color: #AFB1B8;
+}
+
+.customers-link {
+    color: currentColor;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    margin-right: 30px;
+    justify-content: center;
     cursor: pointer;
-    color: #AFB1B8;
-}
-
-.customers-link {
-    color: currentColor;
 }
 
 .icon-customers {
     fill: currentColor;
 }
 
-.customers-block:hover,
-.customers-block:focus {
+.customers-link:hover,
+.customers-link:focus {
     border: 1px solid var(--brand-color);
     color: var(--brand-color);
 }
@@ -503,9 +507,9 @@ body {
 }
 
 .footer-title {
+    font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    line-height: 1.14;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -628,8 +632,8 @@ body {
     border: 1px solid #EEEEEE;
 }
 
-.flex-element:hover,
-.flex-element:focus {
+.works-link:hover,
+.works-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
