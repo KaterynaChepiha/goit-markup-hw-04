@@ -36,7 +36,7 @@ p {
 /* Свойства для корректного отображения картинок */
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -45,6 +45,7 @@ img {
 address {
     font-style: inherit;
 }
+
 
 :root {
     --brand-color: #2196F3;
@@ -397,7 +398,7 @@ body {
     margin-right: 10px;
 }
 
-.social-links {
+.team-link {
     display: flex;
     background-color: #ffffff;
     border-radius: 50%;
@@ -409,17 +410,12 @@ body {
     color: #AFB1B8;
 }
 
-
-.team-link {
-    color: currentColor;
-}
-
 .icon-social {
     fill: currentColor;
 }
 
-.social-links:hover,
-.social-links:focus {
+.team-link:hover,
+.team-link:focus {
     background-color: var(--brand-color);
     color: #ffffff;
 }
@@ -521,7 +517,7 @@ body {
     justify-content: center;
 }
 
-.footer-block {
+.footer-link {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     width: 44px;
@@ -540,8 +536,8 @@ body {
     margin-right: 0;
 }
 
-.footer-block:hover,
-.footer-block:focus {
+.footer-link:hover,
+.footer-link:focus {
     background-color: var(--brand-color);
 }
 
@@ -589,6 +585,7 @@ body {
 .portfolio .button:focus {
     background-color: var(--brand-color);
     color: var(--background-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio .all {
@@ -613,10 +610,7 @@ body {
     margin-right: 0;
 }
 
-.btn-container:hover,
-.btn-container:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
 
 /* Section porfolio works */
 .works-list {
