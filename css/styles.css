@@ -623,6 +623,11 @@ body {
     height: 404px;
     margin-bottom: 30px;
     margin-right: 30px;
+}
+
+.works-link {
+    text-decoration: none;
+    display: block;
     border: 1px solid #EEEEEE;
 }
 
@@ -641,10 +646,6 @@ body {
 
 .works-img {
     margin-bottom: 20px;
-}
-
-.works-link {
-    text-decoration: none;
 }
 
 .works-title {
