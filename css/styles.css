@@ -394,7 +394,7 @@ body {
     justify-content: center;
 }
 
-.social-list>li {
+.social-list>li:not(:last-child) {
     margin-right: 10px;
 }
 
