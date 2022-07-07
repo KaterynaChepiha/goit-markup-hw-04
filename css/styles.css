@@ -528,12 +528,8 @@ body {
     align-items: center;
 }
 
-.footer-icon {
+.footer-icon:not(:last-child) {
     margin-right: 10px;
-}
-
-.footer-block:last-child {
-    margin-right: 0;
 }
 
 .footer-link:hover,
